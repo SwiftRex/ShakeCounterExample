@@ -10,10 +10,10 @@ extension CounterViewModel {
         case minusButtonTap
     }
 
-    static func from(viewAction: ViewAction) -> AppAction? {
+    static func from(viewAction: ViewAction) -> CountAction? {
         switch viewAction {
-        case .plusButtonTap: return .count(.increment)
-        case .minusButtonTap: return .count(.decrement)
+        case .plusButtonTap: return .increment
+        case .minusButtonTap: return .decrement
         }
     }
 }

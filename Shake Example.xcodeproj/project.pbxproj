@@ -32,6 +32,7 @@
 		D68AA25F25C3885500F0B293 /* LoggerMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA25E25C3885500F0B293 /* LoggerMiddleware.swift */; };
 		D68AA26225C3887E00F0B293 /* BridgeMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA26125C3887E00F0B293 /* BridgeMiddleware.swift */; };
 		D68AA26525C3889C00F0B293 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA26425C3889C00F0B293 /* Store.swift */; };
+		D6A40B9225D4A3CD0099B7E9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A40B9125D4A3CD0099B7E9 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		D68AA25E25C3885500F0B293 /* LoggerMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerMiddleware.swift; sourceTree = "<group>"; };
 		D68AA26125C3887E00F0B293 /* BridgeMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeMiddleware.swift; sourceTree = "<group>"; };
 		D68AA26425C3889C00F0B293 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		D6A40B9125D4A3CD0099B7E9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +156,9 @@
 			children = (
 				D68AA24125C3861D00F0B293 /* Counter */,
 				D68AA25025C3870900F0B293 /* Redux */,
-				D68AA24625C3866C00F0B293 /* ShakeAndCountApp.swift */,
 				D68AA22C25C3750800F0B293 /* FunctionalHelpers.swift */,
+				D6A40B9125D4A3CD0099B7E9 /* RootView.swift */,
+				D68AA24625C3866C00F0B293 /* ShakeAndCountApp.swift */,
 				D68AA23025C3750900F0B293 /* Assets.xcassets */,
 				D68AA23525C3750900F0B293 /* Info.plist */,
 				D68AA23225C3750900F0B293 /* Preview Content */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D60A800225D4949500A92832 /* CounterAction.swift in Sources */,
+				D6A40B9225D4A3CD0099B7E9 /* RootView.swift in Sources */,
 				D68AA26225C3887E00F0B293 /* BridgeMiddleware.swift in Sources */,
 				D60A800425D494BD00A92832 /* CounterViewModel+ViewState.swift in Sources */,
 				D60A801125D4987300A92832 /* AppLifecycleAction.swift in Sources */,

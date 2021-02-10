@@ -12,7 +12,7 @@ extension CounterViewModel {
         }
     }
 
-    static func from(appState: AppState) -> ViewState {
-        ViewState(countLabel: "\(appState.count)")
+    static func from(modelState: Int) -> ViewState {
+        ViewState(countLabel: "\(modelState)")
     }
 }

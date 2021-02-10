@@ -7,10 +7,10 @@ import SwiftUI
 /// - the state publisher values being transformed into view state (flat primitive values easy to bind into view elements)
 /// It only glues everything, the transformations themselves are done by ViewState and ViewAction initialisers.
 enum CounterViewModel {
-    static func viewModel<S: StoreType>(from store: S) -> ObservableViewModel<ViewAction, ViewState> where S.ActionType == AppAction, S.StateType == AppState {
+    static func viewModel<S: StoreType>(from store: S) -> ObservableViewModel<ViewAction, ViewState> where S.ActionType == CountAction, S.StateType == Int {
         store.projection(
             action: from(viewAction:),
-            state: from(appState:)
+            state: from(modelState:)
         ).asObservableViewModel(initialState: .empty)
     }
 }

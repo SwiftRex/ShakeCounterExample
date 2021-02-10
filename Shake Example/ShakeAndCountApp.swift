@@ -13,7 +13,7 @@ struct ShakeAndCountApp: App {
 
     var body: some Scene {
         WindowGroup {
-            CounterView(viewModel: CounterViewModel.viewModel(from: store))
+            rootView(store: store)
         }
     }
 }
