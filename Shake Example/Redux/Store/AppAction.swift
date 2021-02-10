@@ -1,3 +1,5 @@
+import Counter
+
 enum AppAction {
     case count(CountAction)
     case shake(ShakeAction)

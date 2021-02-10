@@ -1,6 +1,6 @@
 import Foundation
 
-enum CountAction {
+public enum CountAction {
     case increment
     case decrement
 }
