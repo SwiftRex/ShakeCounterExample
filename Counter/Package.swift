@@ -10,9 +10,11 @@ let package = Package(
         .library(name: "Counter", targets: ["Counter"])
     ],
     dependencies: [
-        .package(name: "SwiftRex", url: "https://github.com/SwiftRex/SwiftRex.git", .upToNextMajor(from: "0.8.2"))
+        .package(name: "SwiftRex", url: "https://github.com/SwiftRex/SwiftRex.git", .upToNextMajor(from: "0.8.2")),
+        .package(name: "SnapshotTesting", url: "https://github.com/pointfreeco/swift-snapshot-testing.git", from: "1.8.2")
     ],
     targets: [
-        .target(name: "Counter", dependencies: [.product(name: "CombineRex", package: "SwiftRex")])
+        .target(name: "Counter", dependencies: [.product(name: "CombineRex", package: "SwiftRex")]),
+        .testTarget(name: "CounterTests", dependencies: ["Counter", "SnapshotTesting"], exclude: ["View/__Snapshots__"])
     ]
 )
