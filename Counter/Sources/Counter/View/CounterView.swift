@@ -23,3 +23,18 @@ public struct CounterView: View {
         .padding()
     }
 }
+
+#if DEBUG
+// IMPORTANT:
+// For this to work, please select target Counter at the top
+// This seems to be a Xcode bug
+struct CounterViewPreview: PreviewProvider {
+    static var previews: some View {
+        CounterView(
+            viewModel: .mock(
+                state: CounterViewModel.from(modelState: -42)
+            ))
+            .previewDevice("iPhone SE")
+    }
+}
+#endif

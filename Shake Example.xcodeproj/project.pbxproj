@@ -12,6 +12,7 @@
 		D674654825D4AA6600327606 /* AppLifecycle in Frameworks */ = {isa = PBXBuildFile; productRef = D674654725D4AA6600327606 /* AppLifecycle */; };
 		D674655425D4AAE700327606 /* ShakeAndCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D674655325D4AAE700327606 /* ShakeAndCountApp.swift */; };
 		D674655825D4ABD200327606 /* AppCore in Frameworks */ = {isa = PBXBuildFile; productRef = D674655725D4ABD200327606 /* AppCore */; };
+		D674655C25D4AE0400327606 /* World+Production.swift in Sources */ = {isa = PBXBuildFile; fileRef = D674655B25D4AE0400327606 /* World+Production.swift */; };
 		D68AA23125C3750900F0B293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68AA23025C3750900F0B293 /* Assets.xcassets */; };
 		D68AA23425C3750900F0B293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68AA23325C3750900F0B293 /* Preview Assets.xcassets */; };
 		D68AA23F25C3757400F0B293 /* CombineRex in Frameworks */ = {isa = PBXBuildFile; productRef = D68AA23E25C3757400F0B293 /* CombineRex */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		D674655325D4AAE700327606 /* ShakeAndCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAndCountApp.swift; sourceTree = "<group>"; };
+		D674655B25D4AE0400327606 /* World+Production.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "World+Production.swift"; sourceTree = "<group>"; };
 		D68AA22925C3750800F0B293 /* Shake Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68AA23025C3750900F0B293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D68AA23325C3750900F0B293 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				D674655325D4AAE700327606 /* ShakeAndCountApp.swift */,
+				D674655B25D4AE0400327606 /* World+Production.swift */,
 				D68AA23025C3750900F0B293 /* Assets.xcassets */,
 				D68AA23525C3750900F0B293 /* Info.plist */,
 				D68AA23225C3750900F0B293 /* Preview Content */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D674655425D4AAE700327606 /* ShakeAndCountApp.swift in Sources */,
+				D674655C25D4AE0400327606 /* World+Production.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
