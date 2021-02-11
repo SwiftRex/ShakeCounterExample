@@ -1,3 +1,4 @@
+import AppCore
 import CombineRex
 import SwiftUI
 
@@ -9,11 +10,11 @@ struct ShakeAndCountApp: App {
         notificationCenter: { notificationName in NotificationCenter.default.publisher(for: notificationName).eraseToAnyPublisher() }
     )
     
-    @StateObject var store = Store.create(world: worldInProduction).asObservableViewModel(initialState: .initial)
+    @StateObject var store = Store.create(dependencies: worldInProduction).asObservableViewModel(initialState: .initial)
 
     var body: some Scene {
         WindowGroup {
-            rootView(store: store)
+            RootView(viewModel: store)
         }
     }
 }

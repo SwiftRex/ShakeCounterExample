@@ -4,8 +4,10 @@ import Foundation
 import SwiftRex
 import UIKit
 
-extension EffectMiddleware where InputActionType == AppLifecycleAction, OutputActionType == AppLifecycleAction, StateType == Void, Dependencies == NotificationCenterPublisher {
-    static func appLifecycle() -> MiddlewareReader<NotificationCenterPublisher, EffectMiddleware> {
+public typealias NotificationPublisher = (Notification.Name) -> AnyPublisher<Notification, Never>
+
+extension EffectMiddleware where InputActionType == AppLifecycleAction, OutputActionType == AppLifecycleAction, StateType == Void, Dependencies == NotificationPublisher {
+    public static func appLifecycle() -> MiddlewareReader<NotificationPublisher, EffectMiddleware> {
         EffectMiddleware.onAction { action, _, _ in
             let cancellableToken = "app-lifecycle-cancellable-token" // In case we want to stop this effect, not observing Notification Center anymore
 

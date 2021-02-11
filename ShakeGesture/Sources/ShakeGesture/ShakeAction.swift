@@ -1,6 +1,6 @@
 import Foundation
 
-enum ShakeAction {
+public enum ShakeAction {
     case startMonitoring
     case shaken
     case stopMonitoring

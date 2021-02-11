@@ -3,8 +3,10 @@ import CombineRex
 import Foundation
 import SwiftRex
 
-extension EffectMiddleware where InputActionType == ShakeAction, OutputActionType == ShakeAction, StateType == Void, Dependencies == NotificationCenterPublisher {
-    static func shakeGesture() -> MiddlewareReader<NotificationCenterPublisher, EffectMiddleware> {
+public typealias NotificationPublisher = (Notification.Name) -> AnyPublisher<Notification, Never>
+
+extension EffectMiddleware where InputActionType == ShakeAction, OutputActionType == ShakeAction, StateType == Void, Dependencies == NotificationPublisher {
+    public static func shakeGesture() -> MiddlewareReader<NotificationPublisher, EffectMiddleware> {
         EffectMiddleware.onAction { action, _, _ in
             let cancellableToken = "shake-gesture-cancellable-token" // In case we want to stop this effect, not observing Notification Center anymore
 

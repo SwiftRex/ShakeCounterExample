@@ -7,51 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D60A800A25D4977A00A92832 /* ShakeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A800925D4977A00A92832 /* ShakeAction.swift */; };
-		D60A800C25D497B900A92832 /* UIWindow+AttachGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A800B25D497B900A92832 /* UIWindow+AttachGesture.swift */; };
-		D60A800E25D497DE00A92832 /* NotificationName+ShakeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A800D25D497DE00A92832 /* NotificationName+ShakeGesture.swift */; };
-		D60A801125D4987300A92832 /* AppLifecycleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A801025D4987300A92832 /* AppLifecycleAction.swift */; };
-		D60A801525D4994F00A92832 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A801425D4994F00A92832 /* World.swift */; };
-		D60A801725D4997F00A92832 /* AppMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A801625D4997F00A92832 /* AppMiddleware.swift */; };
-		D60A801925D49A0500A92832 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A801825D49A0500A92832 /* AppReducer.swift */; };
 		D674653D25D4A69600327606 /* Counter in Frameworks */ = {isa = PBXBuildFile; productRef = D674653C25D4A69600327606 /* Counter */; };
-		D68AA22D25C3750800F0B293 /* FunctionalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA22C25C3750800F0B293 /* FunctionalHelpers.swift */; };
+		D674654325D4A95D00327606 /* ShakeGesture in Frameworks */ = {isa = PBXBuildFile; productRef = D674654225D4A95D00327606 /* ShakeGesture */; };
+		D674654825D4AA6600327606 /* AppLifecycle in Frameworks */ = {isa = PBXBuildFile; productRef = D674654725D4AA6600327606 /* AppLifecycle */; };
+		D674655425D4AAE700327606 /* ShakeAndCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D674655325D4AAE700327606 /* ShakeAndCountApp.swift */; };
+		D674655825D4ABD200327606 /* AppCore in Frameworks */ = {isa = PBXBuildFile; productRef = D674655725D4ABD200327606 /* AppCore */; };
 		D68AA23125C3750900F0B293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68AA23025C3750900F0B293 /* Assets.xcassets */; };
 		D68AA23425C3750900F0B293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68AA23325C3750900F0B293 /* Preview Assets.xcassets */; };
 		D68AA23F25C3757400F0B293 /* CombineRex in Frameworks */ = {isa = PBXBuildFile; productRef = D68AA23E25C3757400F0B293 /* CombineRex */; };
-		D68AA24725C3866C00F0B293 /* ShakeAndCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA24625C3866C00F0B293 /* ShakeAndCountApp.swift */; };
-		D68AA24E25C3870400F0B293 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA24D25C3870400F0B293 /* AppState.swift */; };
-		D68AA25325C3872D00F0B293 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA25225C3872D00F0B293 /* AppAction.swift */; };
-		D68AA25925C387D100F0B293 /* ShakeMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA25825C387D100F0B293 /* ShakeMiddleware.swift */; };
-		D68AA25C25C3880000F0B293 /* AppLifecycleMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA25B25C3880000F0B293 /* AppLifecycleMiddleware.swift */; };
-		D68AA25F25C3885500F0B293 /* LoggerMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA25E25C3885500F0B293 /* LoggerMiddleware.swift */; };
-		D68AA26225C3887E00F0B293 /* BridgeMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA26125C3887E00F0B293 /* BridgeMiddleware.swift */; };
-		D68AA26525C3889C00F0B293 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AA26425C3889C00F0B293 /* Store.swift */; };
-		D6A40B9225D4A3CD0099B7E9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A40B9125D4A3CD0099B7E9 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D60A800925D4977A00A92832 /* ShakeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAction.swift; sourceTree = "<group>"; };
-		D60A800B25D497B900A92832 /* UIWindow+AttachGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+AttachGesture.swift"; sourceTree = "<group>"; };
-		D60A800D25D497DE00A92832 /* NotificationName+ShakeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+ShakeGesture.swift"; sourceTree = "<group>"; };
-		D60A801025D4987300A92832 /* AppLifecycleAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLifecycleAction.swift; sourceTree = "<group>"; };
-		D60A801425D4994F00A92832 /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
-		D60A801625D4997F00A92832 /* AppMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMiddleware.swift; sourceTree = "<group>"; };
-		D60A801825D49A0500A92832 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		D674655325D4AAE700327606 /* ShakeAndCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAndCountApp.swift; sourceTree = "<group>"; };
 		D68AA22925C3750800F0B293 /* Shake Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D68AA22C25C3750800F0B293 /* FunctionalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalHelpers.swift; sourceTree = "<group>"; };
 		D68AA23025C3750900F0B293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D68AA23325C3750900F0B293 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D68AA23525C3750900F0B293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D68AA24625C3866C00F0B293 /* ShakeAndCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAndCountApp.swift; sourceTree = "<group>"; };
-		D68AA24D25C3870400F0B293 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		D68AA25225C3872D00F0B293 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
-		D68AA25825C387D100F0B293 /* ShakeMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeMiddleware.swift; sourceTree = "<group>"; };
-		D68AA25B25C3880000F0B293 /* AppLifecycleMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLifecycleMiddleware.swift; sourceTree = "<group>"; };
-		D68AA25E25C3885500F0B293 /* LoggerMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerMiddleware.swift; sourceTree = "<group>"; };
-		D68AA26125C3887E00F0B293 /* BridgeMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeMiddleware.swift; sourceTree = "<group>"; };
-		D68AA26425C3889C00F0B293 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		D6A40B9125D4A3CD0099B7E9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +30,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D674655825D4ABD200327606 /* AppCore in Frameworks */,
 				D68AA23F25C3757400F0B293 /* CombineRex in Frameworks */,
+				D674654825D4AA6600327606 /* AppLifecycle in Frameworks */,
+				D674654325D4A95D00327606 /* ShakeGesture in Frameworks */,
 				D674653D25D4A69600327606 /* Counter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,62 +41,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D60A800025D4947C00A92832 /* Counter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Counter;
-			sourceTree = "<group>";
-		};
-		D60A800725D4974500A92832 /* Logger */ = {
-			isa = PBXGroup;
-			children = (
-				D68AA25E25C3885500F0B293 /* LoggerMiddleware.swift */,
-			);
-			path = Logger;
-			sourceTree = "<group>";
-		};
-		D60A800825D4976200A92832 /* Shake */ = {
-			isa = PBXGroup;
-			children = (
-				D60A800D25D497DE00A92832 /* NotificationName+ShakeGesture.swift */,
-				D60A800925D4977A00A92832 /* ShakeAction.swift */,
-				D68AA25825C387D100F0B293 /* ShakeMiddleware.swift */,
-				D60A800B25D497B900A92832 /* UIWindow+AttachGesture.swift */,
-			);
-			path = Shake;
-			sourceTree = "<group>";
-		};
-		D60A800F25D4986000A92832 /* AppLifecycle */ = {
-			isa = PBXGroup;
-			children = (
-				D60A801025D4987300A92832 /* AppLifecycleAction.swift */,
-				D68AA25B25C3880000F0B293 /* AppLifecycleMiddleware.swift */,
-			);
-			path = AppLifecycle;
-			sourceTree = "<group>";
-		};
-		D60A801225D498A400A92832 /* BridgeMiddleware */ = {
-			isa = PBXGroup;
-			children = (
-				D68AA26125C3887E00F0B293 /* BridgeMiddleware.swift */,
-			);
-			path = BridgeMiddleware;
-			sourceTree = "<group>";
-		};
-		D60A801325D4993B00A92832 /* Store */ = {
-			isa = PBXGroup;
-			children = (
-				D68AA25225C3872D00F0B293 /* AppAction.swift */,
-				D60A801625D4997F00A92832 /* AppMiddleware.swift */,
-				D60A801825D49A0500A92832 /* AppReducer.swift */,
-				D68AA24D25C3870400F0B293 /* AppState.swift */,
-				D68AA26425C3889C00F0B293 /* Store.swift */,
-				D60A801425D4994F00A92832 /* World.swift */,
-			);
-			path = Store;
-			sourceTree = "<group>";
-		};
 		D674653B25D4A69600327606 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,10 +68,7 @@
 		D68AA22B25C3750800F0B293 /* Shake Example */ = {
 			isa = PBXGroup;
 			children = (
-				D68AA25025C3870900F0B293 /* Redux */,
-				D68AA22C25C3750800F0B293 /* FunctionalHelpers.swift */,
-				D6A40B9125D4A3CD0099B7E9 /* RootView.swift */,
-				D68AA24625C3866C00F0B293 /* ShakeAndCountApp.swift */,
+				D674655325D4AAE700327606 /* ShakeAndCountApp.swift */,
 				D68AA23025C3750900F0B293 /* Assets.xcassets */,
 				D68AA23525C3750900F0B293 /* Info.plist */,
 				D68AA23225C3750900F0B293 /* Preview Content */,
@@ -167,19 +82,6 @@
 				D68AA23325C3750900F0B293 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D68AA25025C3870900F0B293 /* Redux */ = {
-			isa = PBXGroup;
-			children = (
-				D60A800F25D4986000A92832 /* AppLifecycle */,
-				D60A801225D498A400A92832 /* BridgeMiddleware */,
-				D60A800025D4947C00A92832 /* Counter */,
-				D60A800725D4974500A92832 /* Logger */,
-				D60A800825D4976200A92832 /* Shake */,
-				D60A801325D4993B00A92832 /* Store */,
-			);
-			path = Redux;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +103,9 @@
 			packageProductDependencies = (
 				D68AA23E25C3757400F0B293 /* CombineRex */,
 				D674653C25D4A69600327606 /* Counter */,
+				D674654225D4A95D00327606 /* ShakeGesture */,
+				D674654725D4AA6600327606 /* AppLifecycle */,
+				D674655725D4ABD200327606 /* AppCore */,
 			);
 			productName = "Shake Example";
 			productReference = D68AA22925C3750800F0B293 /* Shake Example.app */;
@@ -258,23 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6A40B9225D4A3CD0099B7E9 /* RootView.swift in Sources */,
-				D68AA26225C3887E00F0B293 /* BridgeMiddleware.swift in Sources */,
-				D60A801125D4987300A92832 /* AppLifecycleAction.swift in Sources */,
-				D68AA24725C3866C00F0B293 /* ShakeAndCountApp.swift in Sources */,
-				D60A800E25D497DE00A92832 /* NotificationName+ShakeGesture.swift in Sources */,
-				D68AA25F25C3885500F0B293 /* LoggerMiddleware.swift in Sources */,
-				D68AA26525C3889C00F0B293 /* Store.swift in Sources */,
-				D60A800A25D4977A00A92832 /* ShakeAction.swift in Sources */,
-				D68AA25325C3872D00F0B293 /* AppAction.swift in Sources */,
-				D60A801725D4997F00A92832 /* AppMiddleware.swift in Sources */,
-				D68AA25925C387D100F0B293 /* ShakeMiddleware.swift in Sources */,
-				D60A801925D49A0500A92832 /* AppReducer.swift in Sources */,
-				D68AA24E25C3870400F0B293 /* AppState.swift in Sources */,
-				D68AA22D25C3750800F0B293 /* FunctionalHelpers.swift in Sources */,
-				D60A801525D4994F00A92832 /* World.swift in Sources */,
-				D68AA25C25C3880000F0B293 /* AppLifecycleMiddleware.swift in Sources */,
-				D60A800C25D497B900A92832 /* UIWindow+AttachGesture.swift in Sources */,
+				D674655425D4AAE700327606 /* ShakeAndCountApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +368,18 @@
 		D674653C25D4A69600327606 /* Counter */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Counter;
+		};
+		D674654225D4A95D00327606 /* ShakeGesture */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShakeGesture;
+		};
+		D674654725D4AA6600327606 /* AppLifecycle */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppLifecycle;
+		};
+		D674655725D4ABD200327606 /* AppCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppCore;
 		};
 		D68AA23E25C3757400F0B293 /* CombineRex */ = {
 			isa = XCSwiftPackageProductDependency;

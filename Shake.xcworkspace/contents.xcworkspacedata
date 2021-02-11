@@ -2,7 +2,16 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AppCore">
+   </FileRef>
+   <FileRef
+      location = "group:AppLifecycle">
+   </FileRef>
+   <FileRef
       location = "group:Counter">
+   </FileRef>
+   <FileRef
+      location = "group:ShakeGesture">
    </FileRef>
    <FileRef
       location = "container:Shake Example.xcodeproj">

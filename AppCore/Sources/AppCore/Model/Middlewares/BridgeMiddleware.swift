@@ -1,5 +1,7 @@
+import AppLifecycle
 import CombineRex
 import Foundation
+import ShakeGesture
 import SwiftRex
 
 extension ActionSource {

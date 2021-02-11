@@ -3,8 +3,8 @@ import CombineRex
 import Foundation
 import SwiftRex
 
-class Store: ReduxStoreBase<AppAction, AppState> {
-    static func create(world: World) -> Store {
+public class Store: ReduxStoreBase<AppAction, AppState> {
+    public static func create(dependencies world: World) -> Store {
         let store = Store(
             subject: .combine(initialValue: AppState(count: 0)),
             reducer: Reducer.app(),

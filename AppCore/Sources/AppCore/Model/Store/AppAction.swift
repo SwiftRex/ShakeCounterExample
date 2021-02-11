@@ -1,6 +1,8 @@
+import AppLifecycle
 import Counter
+import ShakeGesture
 
-enum AppAction {
+public enum AppAction {
     case count(CountAction)
     case shake(ShakeAction)
     case appLifecycle(AppLifecycleAction)
